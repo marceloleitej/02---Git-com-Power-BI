@@ -4,7 +4,7 @@
     "annotations": [
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"Lista de espécies Pokémon nomeados por geração[32]\",\"Lista[editar | editar código-fonte]\"]"
+        "value": "[\"Lista de espécies Pokémon nomeados por geração[32]\",\"Lista[editar | editar código-fonte]\",\"Table 4\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",
@@ -430,6 +430,104 @@
                 "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"\", type text}, {\"Posição\", type text}, {\"País (ou território dependente)\", type text}, {\"Estimativa da ONU\", type text}, {\"Crescimento desde a última estimativa\", Int64.Type}, {\"Data\", Int64.Type}, {\"Estimativa Oficial\", type text}})",
                 "in",
                 "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Table 4",
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Bandeira",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2d56e8dd-0d32-4142-ad1c-31cf6146e48b",
+            "sourceColumn": "Bandeira",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Estado",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "31bdc31c-40b1-48c1-97f3-d526d93e6ac3",
+            "sourceColumn": "Estado",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Sigla",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "1481a813-f4fd-4241-9c38-f517e73f2929",
+            "sourceColumn": "Sigla",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Capital",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c8cfb788-a7c4-48ae-b0cb-b52e520f7d5b",
+            "sourceColumn": "Capital",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Região",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "987a2492-8a07-482a-8dcc-c5c4362be8f4",
+            "sourceColumn": "Região",
+            "summarizeBy": "none"
+          }
+        ],
+        "lineageTag": "a6a06afd-6453-49a0-98ea-0c4831dabfd0",
+        "partitions": [
+          {
+            "name": "Table 4",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Web.BrowserContents(\"https://www.estadosecapitaisdobrasil.com/\"),",
+                "    #\"Extracted Table From Html\" = Html.Table(Source, {{\"Column1\", \"TABLE.table.table-striped.text-center > * > TR > :nth-child(1)\"}, {\"Column2\", \"TABLE.table.table-striped.text-center > * > TR > :nth-child(2)\"}, {\"Column3\", \"TABLE.table.table-striped.text-center > * > TR > :nth-child(3)\"}, {\"Column4\", \"TABLE.table.table-striped.text-center > * > TR > :nth-child(4)\"}, {\"Column5\", \"TABLE.table.table-striped.text-center > * > TR > :nth-child(5)\"}}, [RowSelector=\"TABLE.table.table-striped.text-center > * > TR\"]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(#\"Extracted Table From Html\", [PromoteAllScalars=true])",
+                "in",
+                "    #\"Promoted Headers\""
               ],
               "type": "m"
             }
