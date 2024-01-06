@@ -10,13 +10,39 @@
       "nodes": [
         {
           "location": {
-            "x": 0,
-            "y": 60
+            "x": 568,
+            "y": 120
           },
           "nodeIndex": "Lista de espécies Pokémon nomeados por geração[32]",
           "nodeLineageTag": "1e4da88f-712b-4eff-a4e2-43a5fe763a3d",
           "size": {
             "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 0
+          },
+          "nodeIndex": "Lista[editar | editar código-fonte]",
+          "nodeLineageTag": "a515a932-e989-48d3-829d-e844f3aede0e",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 284,
+            "y": 24
+          },
+          "nodeIndex": "Table 4",
+          "nodeLineageTag": "a6a06afd-6453-49a0-98ea-0c4831dabfd0",
+          "size": {
+            "height": 200,
             "width": 234
           },
           "zIndex": 0

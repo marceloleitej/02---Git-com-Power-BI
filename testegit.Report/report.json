@@ -43,6 +43,15 @@
           "x": 9.90,
           "y": 0.00,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"a7831e9a146c05304186\",\"layouts\":[{\"id\":0,\"position\":{\"x\":801.6494845360825,\"y\":0,\"z\":2001,\"width\":478.1443298969072,\"height\":291.9587628865979,\"tabOrder\":2001}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"Lista[editar | editar código-fonte].Column1\"},{\"queryRef\":\"Lista[editar | editar código-fonte].Estimativa Oficial\"},{\"queryRef\":\"Sum(Lista[editar | editar código-fonte].Data)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Lista[editar | editar código-fonte]\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Column1\"},\"Name\":\"Lista[editar | editar código-fonte].Column1\",\"NativeReferenceName\":\"Column1\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Estimativa Oficial\"},\"Name\":\"Lista[editar | editar código-fonte].Estimativa Oficial\",\"NativeReferenceName\":\"Estimativa Oficial\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Data\"}},\"Function\":0},\"Name\":\"Sum(Lista[editar | editar código-fonte].Data)\",\"NativeReferenceName\":\"Sum of Data\"}]},\"autoSelectVisualType\":false,\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 291.96,
+          "width": 478.14,
+          "x": 801.65,
+          "y": 0.00,
+          "z": 2001.00
         }
       ],
       "width": 1280.00
