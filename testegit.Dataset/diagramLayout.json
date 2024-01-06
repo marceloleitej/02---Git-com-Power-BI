@@ -11,12 +11,25 @@
         {
           "location": {
             "x": 0,
-            "y": 0
+            "y": 36
           },
           "nodeIndex": "Lista de espécies Pokémon nomeados por geração[32]",
           "nodeLineageTag": "1e4da88f-712b-4eff-a4e2-43a5fe763a3d",
           "size": {
             "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 284,
+            "y": 0
+          },
+          "nodeIndex": "Table 4",
+          "nodeLineageTag": "9ed960d7-cff1-427a-b150-bae08b2f6af9",
+          "size": {
+            "height": 200,
             "width": 234
           },
           "zIndex": 0
