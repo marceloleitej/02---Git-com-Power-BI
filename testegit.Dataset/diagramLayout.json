@@ -20,32 +20,6 @@
             "width": 234
           },
           "zIndex": 0
-        },
-        {
-          "location": {
-            "x": 284,
-            "y": 0
-          },
-          "nodeIndex": "Lista[editar | editar código-fonte]",
-          "nodeLineageTag": "a515a932-e989-48d3-829d-e844f3aede0e",
-          "size": {
-            "height": 248,
-            "width": 234
-          },
-          "zIndex": 0
-        },
-        {
-          "location": {
-            "x": 568,
-            "y": 24
-          },
-          "nodeIndex": "Table 4",
-          "nodeLineageTag": "a6a06afd-6453-49a0-98ea-0c4831dabfd0",
-          "size": {
-            "height": 200,
-            "width": 234
-          },
-          "zIndex": 0
         }
       ],
       "name": "All tables",
