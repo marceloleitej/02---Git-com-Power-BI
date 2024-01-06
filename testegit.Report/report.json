@@ -36,12 +36,12 @@
           "z": 0.00
         },
         {
-          "config": "{\"name\":\"2ae6173d5c03913ba130\",\"layouts\":[{\"id\":0,\"position\":{\"x\":9.896907216494846,\"y\":301.8556701030928,\"z\":1,\"width\":478.1443298969072,\"height\":411.9587628865979,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"clusteredBarChart\",\"projections\":{\"Category\":[{\"queryRef\":\"Table 4.Região\"}],\"Y\":[{\"queryRef\":\"CountNonNull(Table 4.Estado)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"t\",\"Entity\":\"Table 4\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Região\"},\"Name\":\"Table 4.Região\",\"NativeReferenceName\":\"Região\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Estado\"}},\"Function\":5},\"Name\":\"CountNonNull(Table 4.Estado)\",\"NativeReferenceName\":\"Count of Estado\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"t\"}},\"Property\":\"Estado\"}},\"Function\":5}}}]},\"autoSelectVisualType\":true,\"drillFilterOtherVisuals\":true}}",
+          "config": "{\"name\":\"3023fc1f84121d8ba2ac\",\"layouts\":[{\"id\":0,\"position\":{\"x\":801.6494845360825,\"y\":0,\"z\":1,\"width\":478.1443298969072,\"height\":291.9587628865979,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Lista[editar | editar código-fonte].Data)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Lista[editar | editar código-fonte]\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Data\"}},\"Function\":0},\"Name\":\"Sum(Lista[editar | editar código-fonte].Data)\",\"NativeReferenceName\":\"Sum of Data\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Data\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
           "filters": "[]",
-          "height": 411.96,
+          "height": 291.96,
           "width": 478.14,
-          "x": 9.90,
-          "y": 301.86,
+          "x": 801.65,
+          "y": 0.00,
           "z": 1.00
         }
       ],
