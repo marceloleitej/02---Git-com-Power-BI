@@ -34,6 +34,15 @@
           "x": 9.90,
           "y": 0.00,
           "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"3023fc1f84121d8ba2ac\",\"layouts\":[{\"id\":0,\"position\":{\"x\":801.6494845360825,\"y\":0,\"z\":1000,\"width\":478.1443298969072,\"height\":291.9587628865979,\"tabOrder\":1000}}],\"singleVisual\":{\"visualType\":\"pieChart\",\"projections\":{\"Y\":[{\"queryRef\":\"Sum(Lista[editar | editar código-fonte].Data)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"l\",\"Entity\":\"Lista[editar | editar código-fonte]\",\"Type\":0}],\"Select\":[{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Data\"}},\"Function\":0},\"Name\":\"Sum(Lista[editar | editar código-fonte].Data)\",\"NativeReferenceName\":\"Sum of Data\"}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"l\"}},\"Property\":\"Data\"}},\"Function\":0}}}]},\"drillFilterOtherVisuals\":true,\"hasDefaultSort\":true}}",
+          "filters": "[]",
+          "height": 291.96,
+          "width": 478.14,
+          "x": 801.65,
+          "y": 0.00,
+          "z": 1000.00
         }
       ],
       "width": 1280.00
